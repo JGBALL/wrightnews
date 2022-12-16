@@ -1,0 +1,242 @@
+
+@charset "utf-8";
+
+@font-face {
+	font-family: Montserrat, Lato;
+	src: url(fonts/Montserrat-Black.otf),("fonts/Lato-Black.ttf");
+}
+
+body{
+    font-family: Montserrat, "Palatino Linotype", Georgia, "Times New Roman", serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+img {
+	float: top-left;
+}
+
+#nissanpathfinder {
+    height: 100px;
+    width: 100px;
+    position: center;
+    margin: auto;
+    padding:auto;
+    float: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+#post{
+    border-style: solid;
+}
+#anime {
+	height:200px;
+	width: 300px;
+	padding: auto;
+	margin: auto;
+    border: solid;	
+    border-radius: 20%;
+    border-color: whitesmoke;
+}
+
+#figgy{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+p{
+  font-family:Monsterrat, "Palatino Linotype", Georgia, "Times New Roman", serif;
+  font-style: bold;
+  font-size: 40px;
+}
+
+nav ul{
+
+    top: 50px;
+    right: 0px;
+    list-style-type: none;
+    margin: auto;
+    padding: auto;
+    overflow: hidden;
+    background-color: transparent;
+    font-family: Montserrat, "Palatino Linotype", Georgia, "Times New Roman", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+nav li{
+    float: left;
+    transition: width 2s;
+}
+
+nav li:hover{
+    opacity:85%
+}
+nav li a{
+    display:block;
+    color:black;
+    text-align: center;
+    padding: 30px 16px;
+    margin: 10px;
+    text-decoration: none;
+
+}
+
+body {
+	padding:25px;
+
+	background-size: cover;
+	margin:auto;
+	padding:auto;
+	margin-bottom: 60px;
+	
+}
+main {
+	background-color:white;
+	opacity:0.92;
+}
+
+
+
+#misty {
+    position: center;
+    margin: auto;
+    padding:auto;
+    float: center;
+    display: flex;
+    font-family: Montserrat, "Palatino Linotype", Georgia, "Times New Roman", serif;
+    border-radius: 100%;
+    width: 300px;
+    height: 200px;
+    border-color: white;
+    background-color: white;
+    transition: width 2s;
+  }
+  
+  @keyframes example {
+
+
+
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+
+  }
+
+
+
+#goku{
+    font-family: Montserrat, "Palatino Linotype", Georgia, "Times New Roman", serif;
+    font-size: 12px;
+    font-style: bold;
+    color: black;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+nav ul{
+      top:50px;
+      right:0px;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: transparent;
+      font-family:Montserrat, "Palatino Linotype", Georgia, "Times New Roman", serif;
+  }	
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 30px 16px;
+    margin: 10px;
+    text-decoration: none;
+  
+    width: 100px;
+    transition: width 2s, background 2s;
+  
+  }
+  
+  nav li a:hover {
+      width: 100px;
+  }
+  
+
+
+
+  #anime {
+	height:300px;
+	width:300px;
+	padding: 0;
+	margin: 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: height 2s, width 2s;
+
+	
+	
+}
+#anime:hover {
+	width: 400px;
+	height: 400px;
+}
+
+
+table, tr, th, td {
+	text-align:center;
+	font-family: Montserrat, "Palatino Linotype", Georgia, "Times New Roman", serif;
+	color:black;
+	background-color:white;
+}
+#buy {
+	font-family:Montserrat, "Palatino Linotype", Georgia, "Times New Roman", serif;
+	width: 200px;
+	height: 20px;
+	background-color: black;
+	border:none;
+	color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+  
+
+  cursor: pointer;
+
+	transition: width 1s;
+
+}
+
+#buy:hover {
+	background-color: teal;
+	width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+

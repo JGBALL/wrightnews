@@ -1,0 +1,211 @@
+
+@charset "utf-8";
+
+@font-face {
+	font-family: Montserrat, Lato;
+	src: url(fonts/Montserrat-Black.otf),("fonts/Lato-Black.ttf");
+}
+
+body{
+    font-family: Montserrat, "Palatino Linotype", Georgia, "Times New Roman", serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow-x: hidden;
+}
+#bullshit{
+    height: 500px;
+    width: 1000px;
+}
+#nissanpathfinder {
+    height: 100px;
+    width: 100px;
+    position: center;
+    margin: auto;
+    padding:auto;
+    float: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+#hondaaccordsport{
+    height: 100px;
+    width: 100px;
+    position: center;
+    margin: auto;
+    padding:auto;
+    float: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#story0{
+    width: 600px;
+    top: 307px;
+    right: 300px;
+    position: relative;
+    opacity: 0%;
+}
+#story1{
+    width: 500px;
+    bottom: 355px;
+    left: 100px;
+    position: relative;
+}
+#story3{
+    width: 1050px;
+    bottom: 750px;
+    right: 0px;
+    position: relative;
+
+}
+#testing1{
+    border-style: solid;
+    background-color: black;
+}
+#anime0 {
+	height:300px;
+	width: 400px;
+    right: 365px;
+    position:relative;
+    border-style: solid;
+
+}
+#anime1 {
+	height:150px;
+	width: 150px;
+	padding: 0;
+	margin: 0;
+    position: relative;
+    bottom: 550px;
+    left: 250px;
+    border-style: solid;
+    
+}
+#anime2{
+    height:150px;
+	width: 150px;
+	padding: 0;
+	margin: 0;
+    position: relative;
+    bottom: 650px;
+    left: 250px; 
+    border-style: solid;
+}
+#anime3{
+    bottom: 755px;
+    height: 220px;
+    width: 300px;
+    position: relative;
+    border-style: solid;
+}
+
+#figgy0{
+    position: relative;
+    right: 360px;
+
+}
+
+#figgy1{
+    position: relative;
+    font-size: 12px;
+    bottom: 680px;
+}
+#figgy2{
+    position: relative;
+    font-size: 12px;
+    bottom: 780px;
+}
+#figgy3{
+    position: relative;
+    bottom: 950px;
+    left: 350px;
+    font-size: 14px;
+}
+
+#others1{
+    left: 440px;
+}
+nav ul{
+
+    top: 50px;
+    right: 0px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    font-family: Montserrat, "Palatino Linotype", Georgia, "Times New Roman", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+nav li{
+    float: left;
+}
+nav li a{
+    display:block;
+    color:black;
+    text-align: center;
+    padding: 30px 16px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+
+
+#misty {
+    position:relative;
+    font-family: Montserrat, "Palatino Linotype", Georgia, "Times New Roman", serif;
+    border-style: solid;
+    width: 300px;
+    border-color: whitesmoke;
+    background-color: teal;
+    
+}
+
+#goku{
+    font-family: Montserrat, "Palatino Linotype", Georgia, "Times New Roman", serif;
+    font-size: 12px;
+    font-style: bold;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+nav ul{
+    top:50px;
+    right:0px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    font-family:Montserrat, "Palatino Linotype", Georgia, "Times New Roman", serif;
+}	
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 30px 16px;
+  margin: 10px;
+  text-decoration: none;
+
+  width: 100px;
+  transition: width 2s, background 2s;
+
+}
+
+nav li a:hover {
+    width: 100px;
+}
